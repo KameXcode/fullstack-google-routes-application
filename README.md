@@ -15,5 +15,5 @@ I used Spring Boot in the backend and, in the frontend and Postgres as database.
 
 ## Contact
 
-Kauã De sousa Felicio
+
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](#)  emem7040  
