@@ -1,0 +1,124 @@
+.return-button{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.estimate-page-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.form-container{
+    background-color: #7C53C7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.input-box{
+    padding-top: 10px;
+    gap: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;             
+    font-size: 30px;
+    align-items: center;
+}
+input{
+    border: none;
+    font-size: 20px;
+}
+.input-box input:focus {
+    outline: none;
+}
+.input-box > input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0px;
+}
+#form-button{
+    border: none;
+    width: 470px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+}
+.driver-options{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+#nome{
+    font-size: 300%;
+    text-align: left;
+    align-self: center;
+}
+.driver{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    
+    
+}
+#informações{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#value{
+    align-items: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+#infobutton{
+    
+    width: 30%;
+    height: 40px;
+    background-color: black;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+ 
+}
+#infobutton:hover,
+#infobutton:focus,
+#infobutton:active {
+    background-color: black; /* Sem mudanças no hover */
+    border: none; /* Sem bordas adicionais */
+    outline: none; /* Sem contorno */
+    box-shadow: none; /* Sem sombras no clique */
+}
+#car{
+    font-size: 25px;
+}
+#nome{
+    padding-left: 20px;
+}

@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(35, 26, 77);
+}
+.ride-history-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.input-history{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+    border: 0px;
+}
+.select-container{
+    width: 100px;
+    margin-top: 22px;
+    height: 40px;
+
+}
+.ride-container{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    min-width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    align-items: center;
+    min-height: 150px;
+    background-color: white;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.ride-id, 
+.ride-user-id, 
+.ride-driver-name, 
+.ride-origin, .ride-destination, .ride-duration, .ride-distance {
+    display: flex;
+    flex-direction: column;
+}
+.form-history-container{
+    align-self:center
+}  
+.input-hcontainer{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin-right: 33%;
+}
+.search-button{
+    
+    background-color: transparent;
+    border: none;
+}
+.icon, .search-button{
+   
+    padding-left: 0;
+    width: 50px;
+    height: 43px;
+}
+.ride-value{
+
+}
+.icon{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 10px;
+}
+.search-button{
+    margin-top: 19px;
+}
