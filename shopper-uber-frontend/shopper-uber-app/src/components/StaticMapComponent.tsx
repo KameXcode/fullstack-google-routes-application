@@ -7,4 +7,4 @@ export function StaticMapComponent({pointAlatitude, pointAlongitude, pointBlatit
        <img src={url}></img>
     </div> 
     )
-}
+}  

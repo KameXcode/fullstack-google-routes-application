@@ -1,7 +1,3 @@
-export interface Rides {
-    rides: Ride[]
-}
-
 export interface Ride{
     ride_id: number;
     customer_id: number;
